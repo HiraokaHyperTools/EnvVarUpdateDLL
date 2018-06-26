@@ -344,3 +344,5 @@ Unicode[Dd]ebug/
 Unicode[Dd]ebugPublic/
 Unicode[Rr]elease/
 Unicode[Rr]eleases/
+/EnvVarUpdateDLL-*.7z
+/Plugins
