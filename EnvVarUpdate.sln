@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EnvVarUpdateDLL", "EnvVarUpdate.vcxproj", "{0FEDF88B-09A1-4E4F-ADC9-E4BD399F5CC3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+		UnicodeDebug|Win32 = UnicodeDebug|Win32
+		UnicodeRelease|Win32 = UnicodeRelease|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0FEDF88B-09A1-4E4F-ADC9-E4BD399F5CC3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0FEDF88B-09A1-4E4F-ADC9-E4BD399F5CC3}.Debug|Win32.Build.0 = Debug|Win32
+		{0FEDF88B-09A1-4E4F-ADC9-E4BD399F5CC3}.Release|Win32.ActiveCfg = Release|Win32
+		{0FEDF88B-09A1-4E4F-ADC9-E4BD399F5CC3}.Release|Win32.Build.0 = Release|Win32
+		{0FEDF88B-09A1-4E4F-ADC9-E4BD399F5CC3}.UnicodeDebug|Win32.ActiveCfg = UnicodeDebug|Win32
+		{0FEDF88B-09A1-4E4F-ADC9-E4BD399F5CC3}.UnicodeDebug|Win32.Build.0 = UnicodeDebug|Win32
+		{0FEDF88B-09A1-4E4F-ADC9-E4BD399F5CC3}.UnicodeRelease|Win32.ActiveCfg = UnicodeRelease|Win32
+		{0FEDF88B-09A1-4E4F-ADC9-E4BD399F5CC3}.UnicodeRelease|Win32.Build.0 = UnicodeRelease|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4B16D1A2-282A-4D19-A348-8B71C07B39F3}
+	EndGlobalSection
+EndGlobal
