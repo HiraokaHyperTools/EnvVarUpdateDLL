@@ -26,6 +26,18 @@
     <ClInclude Include="nsis\pluginapi.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Utils\NsisString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\LongString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\ZeroFill.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\FixedLenStr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include=".editorconfig" />
