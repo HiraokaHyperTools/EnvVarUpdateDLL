@@ -1,7 +1,8 @@
 EnvVarUpdateDLL
 ---------------
 
-This is a DLL version of well known NSIS function [EnvVarUpdate](http://nsis.sourceforge.net/Environmental_Variables:_append,_prepend,_and_remove_entries).
+This is a DLL version of well known NSIS function [EnvVarUpdate](http://nsis.sourceforge.net/Environmental_Variables:_append,_prepend,_and_remove_entries) for NSIS 3.03
+ or later.
 
 Using long fixed-length string buffer (32,768 TCHARs) for supporting long PATH environment variable.
 
