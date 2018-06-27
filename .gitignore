@@ -346,3 +346,5 @@ Unicode[Rr]elease/
 Unicode[Rr]eleases/
 /EnvVarUpdateDLL-*.7z
 /Plugins
+/Doxygen
+/Test.exe

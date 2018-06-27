@@ -262,6 +262,10 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="nsis\pluginapi.h" />
+    <ClInclude Include="Utils\LongString.h" />
+    <ClInclude Include="Utils\NsisString.h" />
+    <ClInclude Include="Utils\FixedLenStr.h" />
+    <ClInclude Include="Utils\ZeroFill.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".editorconfig" />
