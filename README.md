@@ -29,3 +29,14 @@ This is a DLL version of well known NSIS function [EnvVarUpdate](http://nsis.sou
 
 - **PathString**
   - A pathname or string to add to or remove from the contents of EnvVarName (e.g., "C:\MyApp")
+
+## Examples
+
+### Installer Examples
+
+```nsis
+Section "Add ${APP} to PATH"
+  EnvVarUpdateDLL::EnvVarUpdate "PATH" "A" "HKCU" "$INSTDIR"
+  Pop $0
+SectionEnd
+```
