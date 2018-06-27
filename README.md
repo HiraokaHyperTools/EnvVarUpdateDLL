@@ -37,8 +37,11 @@ Using long fixed-length string buffer (32,768 TCHARs) for supporting long PATH e
 ### Installer Examples
 
 ```nsis
+!include "winmessages.nsh"
+
 Section "Add ${APP} to PATH"
   EnvVarUpdateDLL::EnvVarUpdate "PATH" "A" "HKCU" "$INSTDIR"
   Pop $0
+  SendMessage ${HWND_BROADCAST} ${WM_WININICHANGE} 0 "STR:Environment" /TIMEOUT=5000
 SectionEnd
 ```
